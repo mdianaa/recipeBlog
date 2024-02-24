@@ -11,9 +11,9 @@ if (!isset($_SESSION['username'])) {
 
 // check if the form is submitted using the POST request
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $title = htmlspecialchars($conn->$_POST['title']);
-    $ingredients = htmlspecialchars($conn->$_POST['ingredients']);
-    $instructions = htmlspecialchars($conn->$_POST['instructions']);
+    $title = htmlspecialchars($_POST['title']);
+    $ingredients = htmlspecialchars($_POST['ingredients']);
+    $instructions = htmlspecialchars($_POST['instructions']);
     $username = $_SESSION['username'];
 
     $image = $_FILES['photo']['tmp_name'];
