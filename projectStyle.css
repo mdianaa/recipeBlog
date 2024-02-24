@@ -1,0 +1,230 @@
+
+#header {
+    padding-top: 5px;
+    border-radius: 15px 50px;
+    text-align: center;
+    width: 55%;
+    background-color: rgb(230, 208, 248);
+    color: #8064A2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+}   
+
+body {
+    background-image: url(purpleTablecloth2.webp);
+}
+
+input {
+    border-color: rgb(45, 24, 54);
+}
+
+textarea {
+    border-color: rgb(45, 24, 54);
+}
+
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.link- {
+    text-decoration: none !important; 
+    color: plum !important;
+}
+
+#plate {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+#fork {
+    height: 790px;
+    width: 130px;
+    float: left;
+    margin-top: 70px;
+    /* margin-right: 20px; */
+}
+
+#knife {
+    height: 805px;
+    width: 130px;
+    float: right;
+    margin-top: 50px;
+    /* margin-right: 160px; */
+}
+
+#collapseExample {
+    width: 15%;
+    margin-left: 30px;
+    /* transition: height 1s ease; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: plum;
+    margin-right: 0% !important;
+}
+
+#menuIcon {
+    margin-top: 10px;
+    width: 50%;
+}
+
+/* #homeIcon {
+    size: 2px;
+    margin-top: 10px;
+    width: 50%;
+} */
+
+#addIcon {
+    margin-top: 10px;
+    width: 50%;
+}
+
+#leftButton {
+    width: 10%;
+    margin-left: 60px;
+    margin-top: 40px;
+    background-color: #8064A2 !important;
+    /* #8064A2 */
+}
+
+#rightButton {
+    width: 10%;
+    margin-right: 60px;
+    margin-top: 40px;
+    background-color: #8064A2 !important;
+}
+
+#serach_button {
+    margin-left: 10%;
+    width: 20%;
+    border-color: rgb(45, 24, 54);
+    color: #8064A2;
+    background-color: white;
+}
+
+.form_button {
+    margin-left: 27%;
+    width: 20%;
+    border-color: rgb(45, 24, 54);
+    color: #8064A2;
+    background-color: white;
+}
+
+#menu {
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+#search {
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    right: 30%;
+    bottom: 60%;
+    color: rgb(45, 24, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#recipe_form {
+    margin-bottom: 200px;
+    position: absolute;
+    top: 48%;
+    left: 38%;
+    right: 30%;
+    bottom: 60%;
+    color: rgb(45, 24, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.search_form {
+    margin-bottom: 200px;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    right: 30%;
+    bottom: 60%;
+    color: rgb(45, 24, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#recipe {
+    position: absolute;
+    top: 38%;
+    margin-left: 33%;
+    margin-right: 33%;
+    color: rgb(45, 24, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#recipe_picture {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 100%;
+    left: 27%;
+    border-style: solid;
+    border-radius: 25px;
+    color: rgb(80, 39, 96);
+}
+
+#all_recipes {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    right: 30%;
+    bottom: 60%;
+    color: rgb(45, 24, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#recipe_title {
+    margin: auto;
+    width: 50%;
+}
+
+#try {
+    position: absolute; 
+    top: 32%;
+    left: 5%;
+    right: 30%;
+    bottom: 60%;
+    color: rgb(45, 24, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 40%;
+    margin-bottom: 5%;
+    width: 30%;
+}
+
+/* design used also for the registration title and form */
+
+#login_title { 
+    position: absolute; 
+    top: 40%;
+    left: 47%;
+    right: 30%;
+    bottom: 60%;
+    color: rgb(45, 24, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#login_form {
+    margin-bottom: 200px;
+    position: absolute;
+    top: 48%;
+    left: 41%;
+    right: 30%;
+    bottom: 60%;
+    color: rgb(45, 24, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
